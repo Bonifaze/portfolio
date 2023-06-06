@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  background-color: #010026;
+  @apply text-white;
+}
+/* .landing span{
+  font-size: 3rem;
+  color: white;
+  font-weight: 600;
+  text-shadow: 2px 2px #8bc7f0;
+} */
+
+.rounded {
+  border-radius: 50%;
+}
