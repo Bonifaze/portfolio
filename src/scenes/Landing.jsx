@@ -7,11 +7,11 @@ import TypeWriterEffect from "react-typewriter-effect";
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
-  const handleDownloadCV = () => {
-    // Logic for downloading the CV file
-    // Replace this with the actual download implementation
-    console.log("Download CV clicked");
-  };
+  // const handleDownloadCV = () => {
+  //   // Logic for downloading the CV file
+  //   // Replace this with the actual download implementation
+  //   console.log("Download CV clicked");
+  // };
 
   return (
     <section
