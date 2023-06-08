@@ -10,7 +10,7 @@ body,
 .app {
   height: 100%;
   background-color: #010026;
-  @apply text-white;
+  @apply text-grey;
 }
 /* .landing span{
   font-size: 3rem;

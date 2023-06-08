@@ -76,7 +76,7 @@ const Contact = () => {
             method="POST"
           >
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3"
+              className="w-full bg-[#143c64] font-semibold placeholder-opaque-black p-3"
               type="text"
               placeholder="NAME(s)"
               {...register("name", {
@@ -92,7 +92,7 @@ const Contact = () => {
             )}
 
             <input
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-full bg-[#143c64] font-semibold placeholder-opaque-black p-3 mt-5"
               type="text"
               placeholder="EMAIL"
               {...register("email", {
@@ -108,18 +108,18 @@ const Contact = () => {
             )}
 
             <textarea
-              className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5"
+              className="w-fullbg-[#143c64]font-semibold bg-[#143c64] placeholder-opaque-black p-5 mt-5"
               name="message"
               placeholder="MESSAGE"
               rows="4"
-              cols="50"
+              cols="80"
               {...register("message", {
                 required: true,
                 maxLength: 2000,
               })}
             />
             {errors.message && (
-              <p className="text-red mt-1">
+              <p className="text-red mt-1 ">
                 {errors.message.type === "required" &&
                   "This field is required."}
                 {errors.message.type === "maxLength" &&
@@ -128,7 +128,8 @@ const Contact = () => {
             )}
 
             <button
-              className="p-5 bg-yellow font-semibold text-deep-blue mt-5 hover:bg-red hover:text-white transition duration-500"
+              className="bg-gradient-rainblue text-deep-blue rounded-sm py-3 px-7 font-semibold
+              hover:bg-blue hover:text-white transition duration-500 pt-3"
               type="submit"
             >
               SEND ME A MESSAGE

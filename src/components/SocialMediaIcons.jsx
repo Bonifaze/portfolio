@@ -39,7 +39,15 @@ const SocialMediaIcons = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="instagram-link" src="../assets/twitter.png" />
+        <img alt="github" src="../assets/git.png" />
+      </a>
+      <a
+        className="hover:opacity-50 transition duration-500"
+        href="https://wa.me/+23408158359139"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img alt="whatsapp" src="../assets/whatsapp.png" />
       </a>
     </div>
   );
