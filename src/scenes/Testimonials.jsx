@@ -97,7 +97,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl text-black">“</p>
           <p className="text-center text-xl text-black">
-          Boniface's Networking Prowess and Leadership Abilities Propel Team Success and Foster Meaningful Connections.
+          Exceptional software developer who consistently meets and surpasses project goals.
           </p>
         </motion.div>
 
