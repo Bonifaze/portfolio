@@ -25,7 +25,7 @@ const MySkills = () => {
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 text-xl text-justify">
             
-          "Shaping the future with computer magic! As a software developer, I'm dedicated to creating amazing things using the following skills. I turn ideas into real-life applications and websites that work smoothly and make life easier.
+          "Shaping the future with computer magic! As a software developer, I'm dedicated to creating amazing things using the following skills/Technologies. I turn ideas into real-life applications and websites that work smoothly and make life easier.
           </p>
         </motion.div>
 
