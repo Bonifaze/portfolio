@@ -107,17 +107,27 @@ const Contact = () => {
               </p>
             )}
 
-            <textarea
+            {/* <textarea
               className="w-fullbg-[#143c64]font-semibold bg-[#143c64] placeholder-opaque-black p-5 mt-5"
               name="message"
               placeholder="MESSAGE"
-              rows="4"
+              rows="3"
               cols="50"
               {...register("message", {
                 required: true,
-                maxLength: 2000,
+                maxLength: 100,
               })}
-            />
+            /> */}
+            <textarea
+              className="w-full bg-[#143c64] text-white font-semibold placeholder-white p-3 mt-5"
+              name="message"
+              placeholder="MESSAGE"
+              rows={5}
+              {...register("message", {
+                required: true,
+              maxLength: 100,
+            })}
+/>
             {errors.message && (
               <p className="text-red mt-1 ">
                 {errors.message.type === "required" &&
