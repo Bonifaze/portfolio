@@ -25,7 +25,7 @@ const MySkills = () => {
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 text-xl text-justify">
             
-          "Shaping the future with computer magic! As a software developer, I'm dedicated to creating amazing things using code. I turn ideas into real-life applications and websites that work smoothly and make life easier. With creativity and attention to detail, I bring innovative solutions to life
+          "Shaping the future with computer magic! As a software developer, I'm dedicated to creating amazing things using the following skills. I turn ideas into real-life applications and websites that work smoothly and make life easier.
           </p>
         </motion.div>
 
@@ -64,11 +64,11 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-              Teamwork and Collaboration
+              <p className="font-playfair font-semibold text-3xl mt-3  hover:text-blue">
+              PHP
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-10 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
           "Alone, we can do so little; together, we can do so much." - Helen Keller
@@ -90,11 +90,11 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-              Time Management: 
+              <p className="font-playfair font-semibold text-3xl mt-3  hover:text-red">
+              JAVA 
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-10 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
            "Don't be busy, be productive. Don't just consume, create. Don't wait for the perfect time, make the time perfect."
@@ -115,11 +115,11 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-              Leadership
+              <p className="font-playfair font-semibold text-3xl mt-3  hover:text-yellow">
+              LARAVEL
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-10 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
           "Leadership is not about being in charge. It is about taking care of those in your charge." - Simon Sinek
@@ -140,11 +140,11 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">04</p>
-              <p className="font-playfair font-semibold text-3xl mt-3">
-              Networking 
+              <p className="font-playfair font-semibold text-3xl mt-3  hover:text-green">
+              REACT_JS
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-32 bg-green absolute right-0 top-0 z-[-1]" />
+            <div className="w-1/2 md:w-3/4 h-10 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl text-justify">
           "Networking is not about just connecting people. It's about connecting people with people, people with ideas, and people with opportunities."

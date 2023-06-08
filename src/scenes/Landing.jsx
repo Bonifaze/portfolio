@@ -7,11 +7,11 @@ import TypeWriterEffect from "react-typewriter-effect";
 const Landing = ({ setSelectedPage }) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
-  const handleDownloadCV = () => {
-    // Logic for downloading the CV file
-    // Replace this with the actual download implementation
-    console.log("Download CV clicked");
-  };
+  // const handleDownloadCV = () => {
+  //   // Logic for downloading the CV file
+  //   // Replace this with the actual download implementation
+  //   console.log("Download CV clicked");
+  // };
 
   return (
     <section
@@ -55,7 +55,7 @@ const Landing = ({ setSelectedPage }) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <p className="text-4xl font-playfair z-10 text-center md:text-start">
+          <p className="text-4xl font-playfair z-10 text-center md:text-start text-white">
             CLINTON {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush

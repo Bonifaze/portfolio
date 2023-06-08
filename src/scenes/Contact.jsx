@@ -112,7 +112,7 @@ const Contact = () => {
               name="message"
               placeholder="MESSAGE"
               rows="4"
-              cols="80"
+              cols="50"
               {...register("message", {
                 required: true,
                 maxLength: 2000,
