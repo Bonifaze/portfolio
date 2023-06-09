@@ -71,7 +71,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-10 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
-          "Alone, we can do so little; together, we can do so much." - Helen Keller
+          I possess extensive expertise in PHP and its associated technologies, allowing me to develop robust and scalable web applications.
                     </p>
         </motion.div>
         
@@ -98,7 +98,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-10 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
-           "Don't be busy, be productive. Don't just consume, create. Don't wait for the perfect time, make the time perfect."
+          During my pursuit of my first degree, I undertook an educational project using Java. By leveraging the object-oriented programming capabilities of Java.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -123,7 +123,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-10 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
-          "Leadership is not about being in charge. It is about taking care of those in your charge." - Simon Sinek
+          I have a strong command of Laravel and have gained substantial experience in developing web applications using this framework.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -148,7 +148,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-10 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl text-justify">
-          "Networking is not about just connecting people. It's about connecting people with people, people with ideas, and people with opportunities."
+          I am an experienced React.js developer and proficiently leverage the power of Tailwind CSS to create responsive and visually appealing user interfaces.
           </p>
         </motion.div>
        

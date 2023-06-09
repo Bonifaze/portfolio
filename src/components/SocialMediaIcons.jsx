@@ -43,7 +43,7 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://wa.me/+23408158359139"
+        href="https://api.whatsapp.com/send/?phone=%2B23408158359139&text&type=phone_number&app_absent=0"
         target="_blank"
         rel="noreferrer"
       >
