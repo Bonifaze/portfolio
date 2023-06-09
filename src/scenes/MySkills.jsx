@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   return (
-    <section id="skills" className="pt-4 pb-24">
+    <section id="skills" className="pt-3 pb-3">
       {/* HEADER AND IMAGE SECTION */}
-      <div className="md:flex md:justify-between md:gap-16 mt-32">
+      <div className="md:flex md:justify-between md:gap-16 mt-20">
         <motion.div
           className="md:w-1/3"
           initial="hidden"
@@ -71,7 +71,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-10 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
-          I possess extensive expertise in PHP and its associated technologies, allowing me to develop robust and scalable web applications.
+          I possess extensive expertise in PHP with CSS and its associated technologies, allowing me to develop robust and scalable web applications.
                     </p>
         </motion.div>
         
@@ -123,7 +123,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-10 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
-          I have a strong command of Laravel and have gained substantial experience in developing web applications using this framework.
+          I have a strong command of Laravel with Bootstrap and have gained substantial experience in developing web applications using this framework.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -147,7 +147,7 @@ const MySkills = () => {
             </div>
             <div className="w-1/2 md:w-3/4 h-10 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5 text-xl text-justify">
+          <p className="pt-1 text-xl text-justify">
           I am an experienced React.js developer and proficiently leverage the power of Tailwind CSS to create responsive and visually appealing user interfaces.
           </p>
         </motion.div>
