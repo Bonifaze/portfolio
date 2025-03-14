@@ -1,0 +1,61 @@
+<?php
+    // Update the path below to your autoload.php,
+    // see https://getcomposer.org/doc/01-basic-usage.md
+    require_once '/path/to/vendor/autoload.php';
+    use Twilio\Rest\Client;
+
+    $sid    = "AC6831e66cc636c886d8a639826622943a";
+    $token  = "[AuthToken]";
+    $twilio = new Client($sid, $token);
+
+    $message = $twilio->messages
+      ->create("+2348120212639", // to
+        array(
+          "from" => "+18582237896",
+          "body" => Testing twilio
+        )
+      );
+
+print($message->sid);
+
+
+const accountSid = 'AC6831e66cc636c886d8a639826622943a';
+const authToken = '[AuthToken]';
+const client = require('twilio')(accountSid, authToken);
+
+client.messages
+    .create({
+        body: 'Testing twilio',
+        from: '+18582237896',
+        to: '+2348120212639'
+    })
+    .then(message => console.log(message.sid))
+    .done();
+
+
+    from twilio.rest import Client
+
+account_sid = 'AC6831e66cc636c886d8a639826622943a'
+auth_token = '[AuthToken]'
+client = Client(account_sid, auth_token)
+
+message = client.messages.create(
+  from_='+18582237896',
+  body='Testing twilio',
+  to='+2348120212639'
+)
+
+print(message.sid)
+
+
+
+curl
+
+
+curl 'https://api.twilio.com/2010-04-01/Accounts/AC6831e66cc636c886d8a639826622943a/Messages.json' -X POST \
+--data-urlencode 'To=+2348120212639' \
+--data-urlencode 'From=+18582237896' \
+--data-urlencode 'Body=Testing twilio' \
+-u AC6831e66cc636c886d8a639826622943a:[AuthToken]
+
+

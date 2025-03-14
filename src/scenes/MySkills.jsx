@@ -4,10 +4,11 @@ import { motion } from "framer-motion";
 
 const MySkills = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
+
   return (
-    <section id="skills" className="pt-3 pb-3">
+    <section id="skills" className="pb-16 mb-16"> {/* Increased bottom padding and margin */}
       {/* HEADER AND IMAGE SECTION */}
-      <div className="md:flex md:justify-between md:gap-16 mt-20">
+      <div className="md:flex md:justify-between md:gap-16 mt-10">
         <motion.div
           className="md:w-1/3"
           initial="hidden"
@@ -24,34 +25,26 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7 text-xl text-justify">
-            
-          "Shaping the future with computer magic! As a software developer, I'm dedicated to creating amazing things using the following skills/Technologies. I turn ideas into real-life applications and websites that work smoothly and make life easier.
+            "Shaping the future with computer magic! As a software developer, I'm dedicated to creating amazing things using the following skills/Technologies. I turn ideas into real-life applications and websites that work smoothly and make life easier."
           </p>
         </motion.div>
 
-        <div className="mt-16 md:mt-0">
-          {isAboveMediumScreens ? (
-            <div
-              className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
-              before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
-            >
-              <img
-                alt="skills"
-                className="z-10"
-                src="assets/skills-image.png"
-              />
-            </div>
-          ) : (
+        {/* Image Section */}
+        <div className="mt-16 md:mt-0 md:w-2/3">
+          <div
+            className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
+            before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
+          >
             <img alt="skills" className="z-10" src="assets/skills-image.png" />
-          )}
+          </div>
         </div>
       </div>
 
       {/* SKILLS */}
-      <div className="md:flex md:justify-between mt-5 gap-32">
+      <div className="md:flex md:justify-between md:gap-5 mt-2 space-y-6 md:space-y-0"> 
         {/* EXPERIENCE */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -64,21 +57,20 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">01</p>
-              <p className="font-playfair font-semibold text-3xl mt-3  hover:text-blue">
-              PHP
+              <p className="font-playfair font-semibold text-3xl mt-1 hover:text-blue">
+                PHP
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-10 bg-blue absolute right-0 top-0 z-[-1]" />
+            <div className="w-full md:w-3/4 h-10 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
-          I possess extensive expertise in PHP with CSS and its associated technologies, allowing me to develop robust and scalable web applications.
-                    </p>
+            I possess extensive expertise in PHP with CSS and its associated technologies, allowing me to develop robust and scalable web applications.
+          </p>
         </motion.div>
-        
 
         {/* INNOVATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -91,19 +83,20 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">02</p>
-              <p className="font-playfair font-semibold text-3xl mt-3  hover:text-red">
-              JAVA 
+              <p className="font-playfair font-semibold text-3xl mt-3 hover:text-red">
+                JAVA
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-10 bg-red absolute right-0 top-0 z-[-1]" />
+            <div className="w-full md:w-3/4 h-10 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5 text-xl">
-          During my pursuit of my first degree, I undertook an educational project using Java. By leveraging the object-oriented programming capabilities of Java.
+            During my pursuit of my first degree, I undertook an educational project using Java. By leveraging the object-oriented programming capabilities of Java.
           </p>
         </motion.div>
+
         {/* IMAGINATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -116,19 +109,20 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
-              <p className="font-playfair font-semibold text-3xl mt-3  hover:text-yellow">
-              LARAVEL
+              <p className="font-playfair font-semibold text-3xl mt-1 hover:text-yellow">
+                LARAVEL
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-10 bg-yellow absolute right-0 top-0 z-[-1]" />
+            <div className="w-full md:w-3/4 h-10 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
-          <p className="mt-5 text-xl">
-          I have a strong command of Laravel with Bootstrap and have gained substantial experience in developing web applications using this framework.
+          <p className="mt-1 text-xl">
+            I have a strong command of Laravel with Bootstrap and have gained substantial experience in developing web applications using this framework.
           </p>
         </motion.div>
+
         {/* IMAGINATIVE */}
         <motion.div
-          className="md:w-1/3 mt-10"
+          className="md:w-1/3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -141,17 +135,16 @@ const MySkills = () => {
           <div className="relative h-32">
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">04</p>
-              <p className="font-playfair font-semibold text-3xl mt-3  hover:text-green">
-              REACT_JS
+              <p className="font-playfair font-semibold text-3xl mt-1 hover:text-green">
+                REACT_JS
               </p>
             </div>
-            <div className="w-1/2 md:w-3/4 h-10 bg-green absolute right-0 top-0 z-[-1]" />
+            <div className="w-full md:w-3/4 h-10 bg-green absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="pt-1 text-xl text-justify">
-          I am an experienced React.js developer and proficiently leverage the power of Tailwind CSS to create responsive and visually appealing user interfaces.
+            I am an experienced React.js developer and proficiently leverage the power of Tailwind CSS to create responsive and visually appealing user interfaces.
           </p>
         </motion.div>
-       
       </div>
     </section>
   );

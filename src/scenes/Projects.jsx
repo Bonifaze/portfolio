@@ -25,7 +25,7 @@ const Project = ({ title, description }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
+        {/* <p className="text-2xl font-playfair">{title}</p> */}
         <p className="mt-7">{description}</p>
       </div>
       <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
